@@ -1,0 +1,17 @@
+<!-- 3) შექმენით ფორმა, სადაც მომხმარებელს დაუსვამთ ნებისმიერ კითხვას(ამისთვის დაგჭირდებათ label-ი) 4 პასუხის გაცემის ვარიანტით.(ამ ვარიანტებისთვის გამოიყენეთ radio ტიპის input-ი).
+მომხმარებელს უნდა შეეძლოს მხოლოდ ერთი ვარიანტის არჩევა და ფორმის დადასტურება -->
+<form action="#" method="post">
+  <label for="question">რა არის თქვენი სქესი?</label><br><br>
+
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">male</label><br>
+
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">female</label><br>
+
+  <input type="radio" id="green" name="gender" value="lgbtq" required>
+  <label for="green">lgbtq</label><br>
+
+  <input type="radio" id="yellow" name="gender" value="baguette" required>
+  <label for="yellow">baguette</label><br><br>
+  <button type="submit">დადასტურება</button>

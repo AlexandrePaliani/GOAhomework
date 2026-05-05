@@ -1,0 +1,2 @@
+# 1) კომენტარის სახით ახსენი რა არის განსხვავება for და while loops შორის
+# [For] loops are used to repeat a code for a specific amount of time: For i in range (5), the code will repeat itself 5 times. [While] loops are also made to repeat code but while the loop is true: While i > 1 (i = 5), as long i is bigger than 1, the code is repeating.
